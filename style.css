@@ -2,22 +2,20 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: #f3f1f1;  */
+    
+    
 }
 /* DArk light mode */
 :root {
-    --primary-color: #fff;
-    --secondary-color: #252323;
-   /* --mainbody-color:#f3f1f1; */
-   /* --mainbody-color:black; */
-
+   
+   --primary-color: #252323 ;
+   --secondary-color: #fff;
 }
 
 .mydark {
-    --primary-color: #252323 ;
-    --secondary-color: #fff;
-    /* --mainbody-color:#f3f1f1; */
-    /* --mainbody-color:black; */
+  
+    --primary-color: #fff;
+    --secondary-color: #252323;
 
 }
 
@@ -25,6 +23,7 @@ body {
 
     /* background-color: #f3f1f1;  */
     background-color: var(--secondary-color);
+    
 
 }
 #icon {
@@ -34,14 +33,11 @@ body {
     border-radius: 30%;
 
 } 
-
-
-
 /* HEADER BAR */
 .head-container {
-
+/* height: 70px; */
+widows: 100%;
     background-color: #2874f0;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +112,7 @@ body {
     height: 110px;
     border: 1px solid #ccc;
     /* background-color: #fff; */
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -191,7 +187,7 @@ body {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: solid 3px #fff;
+    border: solid 3px #e4dede;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
